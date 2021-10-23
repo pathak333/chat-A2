@@ -1,0 +1,41 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 50vh;
+  }
+  
+  .chat h1 {
+    font-size: 50px;
+    margin-bottom: 2px;
+  }
+  .chat input {
+    width: 310px;
+    height: 40px;
+    margin: 7px;
+    border: 2px solid #a73430;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .chat button {
+    width: 325px;
+    height: 50px;
+    margin: 7px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    background: #a73430;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .chat button:hover {
+    background: #050505;
+  }
+  
+  

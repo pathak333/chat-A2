@@ -1,0 +1,92 @@
+
+.chatApp{
+    width: 300px;
+    height: 400px;
+  }
+  .chatApp .header {
+    height: 45px;
+    border-radius: 6px;
+    background: #0b3b55;
+    position: relative;
+    cursor: pointer;
+  }
+  .chatApp .header p {
+    display: block;
+    padding: 0 1em 0 2em;
+    color: rgb(208, 217, 231);
+    font-weight: 700;
+    line-height: 45px;
+    font-size: large;
+  }
+  
+  .chatApp .body {
+    height: 325px;
+    border: 1px solid #0b3b55;
+    background: rgb(208, 217, 231);
+    position: relative;
+  }
+  .chatApp .body .message-container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+  .chatApp .body .message-container::-webkit-scrollbar {
+    display: none;
+  }
+  .chatApp .body .message {
+    height: auto;
+    padding: 10px;
+    display: flex;
+  }
+  
+  .chatApp .body .message .message-content {
+    width: auto;
+    height: auto;
+    min-height: 40px;
+    max-width: 120px;
+    background-color: #273c75;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+  .chatApp .footer button:hover {
+    color: #43a047;
+  }
+  .chatApp .footer button {
+    border: 0;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    flex: 15%;
+    height: 100%;
+    background: #0b3b55;
+    outline: none;
+    color: rgb(252, 248, 248);
+    font-size: x-small;
+    width: 50px;
+  }
+.chatApp .footer {
+  height: 40px;
+  border: 1px solid #6a767c;
+  border-top: none;
+  display: flex;
+}
+
+.chatApp .footer input {
+  height: 100%;
+  flex: 85%;
+  border: 0;
+  padding: 0 0.7em;
+  font-size: 18px;
+  background-color: #c8d6e5;
+}
+
+

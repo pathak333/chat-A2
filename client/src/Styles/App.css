@@ -1,0 +1,47 @@
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    background:#576574;
+    color: #212121;
+    font-family:  "Times New Roman", Times, serif;
+    display: grid;
+    place-items: center;
+  }
+  
+  #you {
+    justify-content: flex-start;
+  }
+  
+  #you .message-content {
+    justify-content: flex-start;
+  }
+  
+  #you .message-data {
+    justify-content: flex-start;
+    margin-left: 5px;
+  }
+  
+  #other {
+    justify-content: flex-end;
+  }
+  
+  #other .message-content {
+    justify-content: flex-end;
+    background-color:#40739e;
+  }
+  
+  #other .message-data {
+    justify-content: flex-end;
+    margin-right: 5px;
+  }
+  
+  .message-data .name {
+    margin-left: 5px;
+    font-weight: bold;
+  }
+  
+  .chatApp .body .message .message-data {
+    display: flex;
+    font-size: 15px;
+  }
